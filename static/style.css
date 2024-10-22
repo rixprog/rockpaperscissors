@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+
+nav{
+    background-color: #071829;
+    color:white;
+    height:10vh;
+    text-align: center;
+    line-height:10vmin;
+    font-size: 1.5rem;
+    font-family: monospace;
+    
+}
+
+
+.choice{
+    height:30vmin;
+    width:30vmin;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height:20vmin;
+    width:20vmin;
+    object-fit: cover;
+    border-radius:5rem;
+    
+}
+
+.images{
+    padding-top:10vmin;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items:center;
+}
+
+.scorecard{
+    height:30vmin;
+    gap:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.scores{ 
+    height:20vmin;
+    width:20vmin;
+    border-radius: 1rem;
+    box-shadow: 2px  2px 2px 2px grey;
+    text-align: center;
+    background-color: #f3f1f1;
+    
+    
+}
+
+.result{
+    height:7vmin;
+    width:50vmin;
+    border-radius: 5vmin;
+    box-shadow: 2px  2px 2px 2px grey;
+    text-align: center;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f1f1;
+    
+}
+
+img:hover{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1vmin;
+    
+
+}
+
+
+#user,#computer{
+    color:black;
+    
+}
+
+.result{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3.5vmin;
+      font-family: monospace;
+      color:#3f3f3f;
+}
+
+
+h4,#compscore,#userscore{
+    color:#3f3f3f;
+    font-family: monospace;
+    font-size: 3vh;
+    
+}
+
+#compscore,#userscore{
+    font-weight: bolder;
+    font-size: 8vmin;
+}
+
+h5{
+    font-size: 3vmin;
+    font-family: monospace;
+}
+
+h4{
+    font-size: 2.7vmin;
+    margin-top: 2vmin;
+    
+}
+
+.reset{
+    height:7vmin;
+    width:40vmin;
+    border-radius: 5vmin;
+    box-shadow: 2px  2px 2px 2px grey;
+    text-align: center;
+    color:white;
+    background-color: rgb(226, 41, 41);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vmin;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    font-size: 3vmin;
+    
+    
+}
